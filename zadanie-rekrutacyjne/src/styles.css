@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .flex-centered {
+    @apply flex items-center justify-center;
+  }
+
+  .flex-centered-between {
+    @apply flex items-center justify-between;
+  }
+
+  .header-3 {
+    @apply font-bebas uppercase text-4xl sm:text-[40px] sm:leading-[48px] text-gray-dark;
+  }
+
+  .link {
+    @apply font-condensed underline hover:text-primary;
+  }
+
+  .container {
+    @apply max-w-1200 size-full px-5 xl:px-0;
+  }
+  .container-dark {
+    @apply text-white bg-gray-dark;
+  }
+
+  .tab {
+    @apply font-flex cursor-pointer;
+  }
+  .tab-active {
+    @apply font-semibold text-primary border-b border-primary;
+  }
+}
