@@ -3,9 +3,9 @@ import MainNavigation from "./MainNavigation.vue";
 </script>
 
 <template>
-  <header class="flex-centered py-4">
-    <div class="flex-centered-between container">
-      <a href="#"><img src="../assets/images/Logo.png" alt="Logo" /></a>
+  <header id="header" class="flex-centered py-4">
+    <div class="container flex-centered-between">
+      <a href="#"><img src="../../assets/svg/Logo.svg" alt="Logo" class="size-full" /></a>
       <main-navigation />
       <div class="hidden sm:inline">
         <base-button text="Zadzwoń do nas" />
