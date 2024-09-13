@@ -15,12 +15,12 @@
     @apply text-white bg-gray-dark;
   }
 
-  .dynamic-size {
+  .width-adaptive {
     @apply w-full;
   }
 
   @screen xs {
-    .dynamic-size {
+    .width-adaptive {
       @apply w-fit;
     }
   }

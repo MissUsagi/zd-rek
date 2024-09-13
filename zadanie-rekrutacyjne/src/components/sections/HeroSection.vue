@@ -12,8 +12,8 @@
         </p>
       </div>
       <div class="hero__actions">
-        <base-button text="Zobacz zdjęcia" class="dynamic-size" />
-        <base-button text="Zadzwoń do nas" class="dynamic-size" variant="secondary" />
+        <base-button text="Zobacz zdjęcia" class="width-adaptive" />
+        <base-button text="Zadzwoń do nas" class="width-adaptive" variant="secondary" />
       </div>
     </div>
     <img class="hero__image" src="../../assets/images/HeroImage.png" />
