@@ -11,31 +11,31 @@ export default {
           light: "#EDEDED",
         },
       },
+      container: {
+        padding: {
+          DEFAULT: "1.25rem",
+          xs: "1.25rem",
+          lg: "0px",
+        },
+        screens: {
+          sm: "100%",
+          md: "100%",
+          lg: "1200px",
+        },
+      },
       fontFamily: {
-        flex: ["Roboto Flex"],
-        bebas: ["Bebas Neue"],
+        flex: ["Roboto Flex", "sans-serif"],
+        bebas: ["Bebas Neue", "sans-serif"],
         condensed: ["Roboto Condensed", "sans-serif"],
       },
-      spacing: {
-        88: "88px",
-        120: "120px",
-      },
-      width: {
-        576: "576px",
-        600: "600px",
-        825: "825px",
-        1200: "1200px",
-        1264: "1264px",
-        1440: "1440px",
-      },
-      maxWidth: {
-        1200: "1200px",
-      },
-      height: {
-        446: "446px",
-        825: "825px",
+      screens: {
+        xs: "480px",
       },
     },
   },
-  plugins: [],
+  plugins: [
+    function ({ addVariant }) {
+      addVariant("custom-hover", "@media (hover: hover)");
+    },
+  ],
 };

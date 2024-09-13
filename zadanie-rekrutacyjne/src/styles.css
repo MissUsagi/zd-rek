@@ -4,7 +4,27 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  body {
+    @apply bg-white;
+  }
+}
+
 @layer utilities {
+  .container-dark {
+    @apply text-white bg-gray-dark;
+  }
+
+  .dynamic-size {
+    @apply w-full;
+  }
+
+  @screen xs {
+    .dynamic-size {
+      @apply w-fit;
+    }
+  }
+
   .flex-centered {
     @apply flex items-center justify-center;
   }
@@ -13,25 +33,15 @@
     @apply flex items-center justify-between;
   }
 
-  .header-3 {
-    @apply font-bebas uppercase text-4xl sm:text-[40px] sm:leading-[48px] text-gray-dark;
-  }
-
   .link {
-    @apply font-condensed underline hover:text-primary;
+    @apply font-condensed underline custom-hover:hover:text-primary;
   }
 
-  .container {
-    @apply max-w-1200 size-full px-5 xl:px-0;
-  }
-  .container-dark {
-    @apply text-white bg-gray-dark;
+  .title-large {
+    @apply font-bebas uppercase text-3xl sm:text-[40px] sm:leading-[48px] text-gray-dark;
   }
 
-  .tab {
-    @apply font-flex cursor-pointer;
-  }
-  .tab-active {
-    @apply font-semibold text-primary border-b border-primary;
+  .title-small {
+    @apply font-condensed text-lg sm:text-[22px] text-primary;
   }
 }
