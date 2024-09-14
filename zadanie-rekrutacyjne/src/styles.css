@@ -38,7 +38,7 @@
   }
 
   .title-large {
-    @apply font-bebas uppercase text-3xl sm:text-[40px] sm:leading-[48px] text-gray-dark;
+    @apply font-bebas uppercase text-3xl sm:text-[40px] sm:leading-[48px] text-slate-dark;
   }
 
   .title-small {

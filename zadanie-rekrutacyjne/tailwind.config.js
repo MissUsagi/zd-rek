@@ -10,6 +10,9 @@ export default {
           dark: "#282828",
           light: "#EDEDED",
         },
+        slate: {
+          dark: "#1D1D1B",
+        },
       },
       container: {
         padding: {
