@@ -23,7 +23,7 @@ const moveToSlide = (index) => {
 </script>
 
 <template>
-  <section id="gallery" class="gallery">
+  <section id="gallery" class="pt-0 sm:pt-20">
     <gallery-section-header />
 
     <div class="gallery__carousel">
@@ -52,7 +52,7 @@ const moveToSlide = (index) => {
 }
 
 .gallery__dots {
-  @apply flex-centered gap-2;
+  @apply flex justify-center gap-2;
 }
 
 .dot {
