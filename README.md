@@ -1,6 +1,11 @@
 ## Podgląd:
 https://cars-spot-rekrutacja.netlify.app
 
+## Dodatkowe informacje:
+Demo zawiera kilka elementów interaktywnych. Można np. rozwinąć tekst w sekcji SEO, dodałam tez bardzo podstawową karuzelę (można klikać na kropki pod zdjęciami i sprawdzić :)
+Projekt w całości został wykonany w Vue + Tailwind, starałam się przemycić do niego trochę metodologii "Atomic design", ponieważ uważam, że mniejsze komponenty są łatwiejsze w utrzymaniu, plus lubię tworzyć reużywalny kod.
+
+
 ## Setup
 
 Make sure to install the dependencies:
