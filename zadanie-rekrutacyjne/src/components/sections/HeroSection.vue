@@ -46,6 +46,6 @@
 }
 
 .hero__image {
-  @apply absolute right-0 bottom-16 md:bottom-[120px] max-w-[90%];
+  @apply absolute right-0 bottom-20 sm:bottom-16 md:bottom-[120px] max-w-[90%];
 }
 </style>

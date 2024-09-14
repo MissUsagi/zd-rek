@@ -6,7 +6,7 @@ import TheFooter from "./components/layouts/TheFooter.vue";
 
 <template>
   <div class="relative overflow-x-hidden">
-    <img src="../src/assets/svg/serpent.svg" alt="decoration_image" class="absolute right-0 max-w-fit -z-10" />
+    <img src="../src/assets/svg/serpent.svg" alt="decoration_image" class="absolute right-0 sm:right-16 max-w-fit -z-10" />
     <the-header />
     <main-content />
     <the-footer />
